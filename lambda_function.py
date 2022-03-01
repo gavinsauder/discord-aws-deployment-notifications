@@ -1,3 +1,6 @@
+#Python 3.8
+#Make sure to add dependencies required for imports via lambda layer
+
 import json
 import requests
 
