@@ -43,4 +43,4 @@ ____________
 
 Congrats! You should now start receiving discord messages for the eventbridge rule you just created. Eventbridge recieves messages from cloudwatch and allows you to create a message to be sent to SNS. SNS relays your message to the lambda function, and then lambda passes that message on to the discord webhook.
 
-You can create more than 1 eventbridge rule attached to the same SNS message. I created a 3 eventbridge rules: pipeline success, pipeline fail, and also deployment fail.
+You can create more than 1 eventbridge rule attached to the same SNS message. I created a 3 eventbridge rules: pipeline success, pipeline fail, and also deployment success.
