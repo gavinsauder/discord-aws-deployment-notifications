@@ -1,7 +1,7 @@
 {
-  "source": ["aws.codepipeline"],
-  "detail-type": ["CodePipeline Pipeline Execution State Change"],
+  "source": ["aws.codedeploy"],
+  "detail-type": ["CodeDeploy Deployment State-change Notification"],
   "detail": {
-    "state": ["FAILED"]
+    "state": ["SUCCESS"]
   }
 }
