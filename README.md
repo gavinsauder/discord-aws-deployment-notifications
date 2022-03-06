@@ -12,3 +12,8 @@ There are 3 pieces that need setup in your AWS account.
 
 
 You will also need an webhook url from the discord channel you'd like to receive these messages in. And you finally need to create the dependencies for your Lambda function imports.
+
+____________
+
+## Eventbridge
+Go to Amazon Eventbridge and create a new rule
