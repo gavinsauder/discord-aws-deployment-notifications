@@ -16,4 +16,10 @@ You will also need an webhook url from the discord channel you'd like to receive
 ____________
 
 ## Eventbridge
-Go to Amazon Eventbridge and create a new rule
+1. Go to Amazon Eventbridge and create a new rule
+2. Set Event pattern as one of [these custom patterns](https://github.com/gavinsauder/discord-aws-deployment-notifications/tree/main/eventbridge-rules)
+3. Set Target as "SNS Topic"
+4. Set Topic as the new SNS topic we created for these notification messages
+5. Configure Target Input as "Input transformer"
+6. Set Input Path to set a varible to be used in the message: {"pipeline":"$.detail.pipeline"} or use {"deploy":"$.detail.application"}
+7. Finally, set your message with quotes. Such as: "The application \**\<pipeline>** has deployed successfully.  :white_check_mark:"
