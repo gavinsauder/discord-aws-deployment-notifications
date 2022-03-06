@@ -7,8 +7,6 @@ import requests
 def lambda_handler(event, context):
 
     message = json.loads(event['Records'][0]['Sns']['Message'])
-
-
         
     url = "YOURDISCORDWEBHOOKURL"
     data = {'username': 'AWS Bot', 'content': message}
