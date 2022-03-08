@@ -1,4 +1,4 @@
-# Get Discord Notifications for AWS Deployment Updates
+# Discord Notifications for AWS Deployments
 Setup your AWS account to receive discord notifications for code deploy and code pipeline status messages. Receive a message if a deployment or pipeline fails or succeeds.
 
 There are 3 pieces that need setup in your AWS account. 
